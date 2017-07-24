@@ -1,0 +1,30 @@
+
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/* ===============
+	initializer
+   ===============*/
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+/* =================
+	Theme things
+   ================= */
+
+h1 {
+  padding-top: 20px;
+  position: relative;
+
+}
+
+.title {
+  margin: 0 10%;
+	border-bottom: 1px solid  grey;
+}
