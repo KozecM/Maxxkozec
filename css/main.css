@@ -25,6 +25,9 @@ body {
   font: 16px/26px Helvetica, Helvetica Neue, Arial;
 }
 
+img{
+  background-size: cover;
+} 
 /* =================
 	Theme things
    ================= */
@@ -35,10 +38,14 @@ body {
   padding-bottom:  10px;
 }
 
-header {
-  height: 20px;
-  margin: 10px 8%;
+.header_image {
+  background-image: url('../files/Header.png');
+  background-size: cover;
+  position:  relative;
+  height: 450px;
 }
+
+
 
 .header-container {
   position: absolute;
@@ -56,6 +63,3 @@ h2 {
   margin: 0 10%;
 }
 
-.page-content {
-  padding-top: 50px;
-}
