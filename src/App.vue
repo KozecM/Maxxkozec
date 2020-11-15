@@ -55,7 +55,7 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 #app {
-  font-family: 'Comfortaa';
+  font-family: Avenir, Helvetica, Arial, sans-serif, 'Comfortaa';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
