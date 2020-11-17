@@ -20,6 +20,7 @@
         </div>
       </div>
     </div>
+    <br>
     <div class="card has-background-grey-lighter">
       <div class="card-content">
         <div class="columns">
@@ -31,9 +32,37 @@
           </div>
           <div class="column"></div>
         </div>
-        
       </div>
-  </div>
+    </div>
+    <br />
+    <div class="card has-background-grey-lighter">
+      <div class="card-content">
+        <div class="columns">
+          <div class="column"></div>
+          <div class="column">
+            <p class="title is-family-sans-serif is-centered">What I Can Do.</p>
+            <p class="is-family-sans-serif">I am a full stack developer so I am able to build entire websites from the user interface to the database. 
+              I am well versed in VueJs, Firebase, and AWS and I am very quick to pick up and learn new skills. </p>
+          </div>
+          <div class="column"></div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="card has-background-grey-lighter">
+      <div class="card-content">
+        <div class="columns">
+          <div class="column"></div>
+          <div class="column">
+            <p class="title is-family-sans-serif is-centered">I Here to Help.</p>
+            <p class="is-family-sans-serif">I am currently available for freelance and full time work. If you think I would be a good fit or just want to say hi, please get in touch.</p>
+            <br />
+            <a class="button" id="email"  v-bind:href="'mailto:' + email">Message Me</a>
+          </div>
+          <div class="column"></div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -43,7 +72,14 @@
   export default {
     data() {
       return{
+        email: "maxxkozec@hotmail.com"
       };
+    },
+
+    methods: {
+      sendmessage(){
+        
+      },
     },
   };
 /*eslint -enable*/
@@ -53,6 +89,7 @@
 h3 {
   color: darkgreen;
 }
-
-
+#email {
+  background-color: #BEE;
+}
 </style>
