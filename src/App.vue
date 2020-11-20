@@ -18,13 +18,13 @@
         -->
           <div class="navbar-menu" :class="{ 'is-active': showNav }">
             <div class="navbar-end">
-              <a @click="about()" class="navbar-item">
+              <a @click="goTo('')" class="navbar-item">
                 About
               </a>
-              <a @click="work()" class="navbar-item">
+              <a @click="goTo('Projects')" class="navbar-item">
                 My Projects
               </a>
-              <a @click="contact()" class="navbar-item">
+              <a @click="goTo('Contact')" class="navbar-item">
                 Contact
               </a>
             </div>
@@ -48,6 +48,12 @@ export default {
     return{
       showNav: false,
     }    
+  },
+
+  methods: {
+    goTo(place){
+      this.$router.push('/' + place);
+    },
   },
 }
 </script>

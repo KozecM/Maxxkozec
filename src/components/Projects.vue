@@ -76,11 +76,6 @@
       };
     },
 
-    methods: {
-      sendmessage(){
-        
-      },
-    },
   };
 /*eslint -enable*/
 </script>
