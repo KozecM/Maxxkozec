@@ -17,7 +17,7 @@ const router = new Router({
     component: Dashboard
   },
   {
-    path: '/Projets',
+    path: '/Projects',
     name: 'Projects',
     component: Projects
   },

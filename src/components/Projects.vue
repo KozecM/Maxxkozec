@@ -3,21 +3,12 @@
     <div class="card has-background-white-ter">
       <div class="card-content">
         <label class="title is-centered is-size-3">
-          Hi! I'm Maxx
+          My Projects
         </label>
         <br />
         <label class="subtitle is-centered">
-          A Computer Scientist
+          Everything I have done, am doing, and will continue to do
         </label>
-        <div class="columns">
-          <div class="column"></div>
-          <div class="column">
-            <figure class="image is-is-square">
-              <img src="../../public/IMG_96221.jpg" alt="this is me" class="is-rounded">
-            </figure>
-          </div>
-          <div class="column"></div>
-        </div>
       </div>
     </div>
     <br>
@@ -27,8 +18,10 @@
           <div class="column"></div>
           <div class="column">
             <p class="title is-family-sans-serif is-centered">Who am I? </p>
-            <p class="is-family-sans-serif">I am a computer scientist/web developer based in Hood River Oregon. 
-              I graduated from Oregon State University in 2020. I work mainly in web development but I enjoy all things programming.</p>
+            <p class="is-family-sans-serif">Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+              sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
           <div class="column"></div>
         </div>
@@ -41,8 +34,10 @@
           <div class="column"></div>
           <div class="column">
             <p class="title is-family-sans-serif is-centered">What I Can Do.</p>
-            <p class="is-family-sans-serif">I mainly focus on full stack development so I am able to build entire websites from the user interface to the database. 
-              I am well versed in VueJs, Firebase, and AWS and I am very quick to pick up and learn new skills. </p>
+            <p class="is-family-sans-serif">Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+              sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
           <div class="column"></div>
         </div>
@@ -55,7 +50,10 @@
           <div class="column"></div>
           <div class="column">
             <p class="title is-family-sans-serif is-centered">I'm Here to Help.</p>
-            <p class="is-family-sans-serif">I am currently available for freelance and full time work. If you think I would be a good fit or just want to say hi, please get in touch.</p>
+            <p class="is-family-sans-serif">Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+              sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <br />
             <a class="button" id="email"  v-bind:href="'mailto:' + email">Message Me</a>
           </div>
@@ -76,6 +74,11 @@
       };
     },
 
+    methods: {
+      sendmessage(){
+        
+      },
+    },
   };
 /*eslint -enable*/
 </script>
