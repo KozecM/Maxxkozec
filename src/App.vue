@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" :class="checkugly">
     <section class="hero is-fullheight is-bold">
       <div class="hero-head">
         <nav class="navbar">
@@ -33,7 +33,7 @@
       </div>
       <div class="hero-body">
         <div class="container has-text-centered">
-          <router-view></router-view>
+          <router-view ref="uglyinfo"></router-view>
         </div>
       </div>
     </section>
@@ -47,14 +47,31 @@ export default {
   data() {
     return{
       showNav: false,
+      ugly: false,
     }    
   },
-
   methods: {
     goTo(place){
+      this.ugly = false;
       this.$router.push('/' + place);
     },
+    changeugly(data) {
+      this.ugly = data;
+    }
   },
+  computed: {
+    checkugly() {
+      return this.ugly? 'ugly' : 'normal'
+    }
+  },
+  mounted() {
+    this.$watch(
+      "$refs.uglyinfo.uglify",
+      (new_val) => {
+        this.ugly = new_val
+      }
+    )
+  }
 }
 </script>
 
@@ -66,9 +83,13 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-color: #BEE;
 }
-body {
-  background-color: #BEE;
+
+.normal {
+  background-color: #16a085;
+}
+
+.ugly {
+  background-color: #ffff00;
 }
 </style>
