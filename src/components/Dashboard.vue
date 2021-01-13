@@ -63,7 +63,7 @@
       </div>
     </div>
     <br />
-    <div :class="checkuglycard">
+    <!-- <div :class="checkuglycard">
       <div class="card-content">
         <div :class="{
             'columns': !uglify,
@@ -79,7 +79,7 @@
           <div class="column"></div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
