@@ -40,7 +40,7 @@
             </p>
             <br />
             <a class="button" id="email"  v-bind:href="'https://github.com/KozecM/Energy_Form'">View Code</a>
-            <a class="button" id="email"  v-bind:href="'https://energy-assistance-application.web.app/'">View Site</a>
+            <a class="button" id="email"  v-bind:href="'https://energy-assistance-app.web.app/'">View Site</a>
           </div>
           <div class="column"></div>
         </div>
